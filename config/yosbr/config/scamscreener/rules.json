@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "muteStageEnabled": true,
+  "ruleStageEnabled": true,
+  "similarityStageEnabled": true,
+  "behaviorStageEnabled": true,
+  "trendStageEnabled": true,
+  "funnelStageEnabled": true,
+  "contextStageEnabled": true,
+  "muteStage": {
+    "harmlessMessageMaxLength": 12,
+    "duplicateWindowMs": 5000,
+    "duplicateCacheSize": 128,
+    "duplicateMaxMessageLength": 96,
+    "harmlessMessagePattern": "^(?:gg|gf|gl|hf|wp|ty|thx|thanks|ok|okay|nice|lol|lmao|brb|afk|np|nope|yep|nah)$"
+  },
+  "ruleStage": {
+    "suspiciousLinkEnabled": true,
+    "externalPlatformEnabled": true,
+    "upfrontPaymentEnabled": true,
+    "accountDataEnabled": true,
+    "tooGoodEnabled": true,
+    "coercionThreatEnabled": true,
+    "middlemanTriggerEnabled": true,
+    "proofBaitEnabled": true,
+    "urgencyEnabled": true,
+    "trustEnabled": true,
+    "discordHandleEnabled": true,
+    "linkRedirectComboEnabled": true,
+    "trustPaymentComboEnabled": true,
+    "urgencyAccountComboEnabled": true,
+    "middlemanProofComboEnabled": true,
+    "suspiciousLinkScore": 20,
+    "externalPlatformScore": 15,
+    "upfrontPaymentScore": 25,
+    "accountDataScore": 35,
+    "tooGoodScore": 15,
+    "coercionThreatScore": 20,
+    "middlemanClaimScore": 15,
+    "proofBaitScore": 10,
+    "urgencyScore": 10,
+    "trustScore": 10,
+    "discordHandleScore": 50,
+    "linkRedirectComboScore": 10,
+    "trustPaymentComboScore": 15,
+    "urgencyAccountComboScore": 15,
+    "middlemanProofComboScore": 10,
+    "urgencyThreshold": 2,
+    "trustThreshold": 2,
+    "suspiciousLinkPattern": "\\b(?:https?://\\S+|(?:discord\\.gg|dsc\\.gg|discord(?:app)?\\.com/invite|t\\.me|bit\\.ly|tinyurl\\.com|cutt\\.ly|lnk\\.bio|bio\\.link|grabify\\.link)/\\S+)",
+    "externalPlatformPattern": "\\b(?:discord|telegram|whatsapp|instagram|snap(?:chat)?|t\\.me|dm me|dm me on discord|direct message me|add me on discord|join my discord|message me on discord|contact me on discord|discord server|server invite|join vc|vc|voice chat|voice channel|join call|discord call|voice call)\\b",
+    "upfrontPaymentPattern": "\\b(?:pay first|send first|payment first|upfront payment|pay upfront|vorkasse|send coins first|coins first|before i trade|before we trade)\\b",
+    "accountDataPattern": "\\b(?:password|passwort|2fa|verification code|auth code|login details|email login|microsoft account|backup code|security code|otp|one time code|account email)\\b",
+    "tooGoodPattern": "\\b(?:free rank|free coins|100% safe|100 percent safe|guaranteed|garantiert|dupe|duped items?|risk free|free skyblock coins|cheap coins)\\b",
+    "coercionThreatPattern": "\\b(?:you\\s+will\\s+not\\s+get\\s+(?:your|ur)\\s+(?:stuff|items?|armor|gear)\\s+back|you\\s+won\\s+t\\s+get\\s+(?:your|ur)\\s+(?:stuff|items?|armor|gear)\\s+back|well\\s+then\\s+you\\s+will\\s+not\\s+get\\s+(?:your|ur)\\s+(?:stuff|items?|armor|gear)\\s+back|unless\\s+you\\s+(?:join|come)\\s+(?:vc|voice\\s+chat|voice\\s+channel|call)|if\\s+you\\s+don\\s+t\\s+(?:join|come)\\s+(?:vc|voice\\s+chat|voice\\s+channel|call)|or\\s+i\\s+keep\\s+(?:your|ur)\\s+(?:stuff|items?|armor|gear))\\b",
+    "urgencyAllowlistPattern": "\\b(?:auction|ah|flip|bin|bid|bidding)\\b",
+    "tradeContextAllowlistPattern": "\\b(?:sell|selling|buy|buying|trade|trading|price|coins?|payment|pay|lf|lb)\\b",
+    "trustAllowlistPattern": "\\b(?:guild|party|partying|coop|co-op|friend|friends|teammate|member|clan)\\b",
+    "middlemanPattern": "\\b(?:trusted middleman|legit middleman|middleman)\\b",
+    "middlemanClaimPattern": "\\b(?:(?:trusted|legit|safe|verified)\\s+middleman|middleman\\s+(?:here|available)|(?:i\\s+can|can)\\s+(?:be\\s+)?(?:your\\s+)?middleman|using\\s+(?:a\\s+)?middleman)\\b",
+    "proofBaitPattern": "\\b(?:i\\s+have\\s+proof|can\\s+show\\s+proof|can\\s+provide\\s+proof|have\\s+vouches?|lots?\\s+of\\s+vouches?|mm\\s+proof|rep\\s+proof)\\b",
+    "trustSignalPattern": "\\b(?:trust me|i am legit|its legit|it's legit|safe trade|trusted middleman|legit middleman|trusted seller|verified seller|you can trust me|i can be trusted)\\b",
+    "discordHandlePattern": "(?:\\b[a-z0-9._]{2,32}#\\d{4}\\b|@[a-z0-9._]{2,32}\\b)",
+    "urgencyKeywords": [
+      "now",
+      "quick",
+      "fast",
+      "urgent",
+      "asap",
+      "immediately",
+      "right",
+      "sofort",
+      "jetzt",
+      "hurry",
+      "soon"
+    ],
+    "urgencyPhrases": [
+      "right now",
+      "right away",
+      "as soon as possible",
+      "need it now",
+      "need this now",
+      "need this right now",
+      "fast fast",
+      "quick payment",
+      "need it asap",
+      "need asap",
+      "hurry up",
+      "dont wait"
+    ],
+    "trustKeywords": [
+      "trust",
+      "trusted",
+      "legit",
+      "safe",
+      "verified",
+      "vouched",
+      "reputable",
+      "middleman"
+    ],
+    "trustPhrases": [
+      "trust me",
+      "i am legit",
+      "its legit",
+      "it's legit",
+      "safe trade",
+      "trusted middleman",
+      "legit middleman",
+      "trusted seller",
+      "verified seller",
+      "you can trust me",
+      "i can be trusted"
+    ]
+  },
+  "similarityStage": {
+    "minCompareLength": 6,
+    "phrases": [
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "add me on discord",
+        "score": 10,
+        "threshold": 0.72
+      },
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "join my discord",
+        "score": 10,
+        "threshold": 0.72
+      },
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "add me on telegram",
+        "score": 10,
+        "threshold": 0.74
+      },
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "dm me on discord",
+        "score": 10,
+        "threshold": 0.74
+      },
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "join vc",
+        "score": 8,
+        "threshold": 0.76
+      },
+      {
+        "category": "SIM_EXTERNAL_PLATFORM",
+        "phrase": "voice chat",
+        "score": 8,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_UPFRONT_PAYMENT",
+        "phrase": "pay first",
+        "score": 12,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_UPFRONT_PAYMENT",
+        "phrase": "send first",
+        "score": 12,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_UPFRONT_PAYMENT",
+        "phrase": "pay upfront",
+        "score": 12,
+        "threshold": 0.76
+      },
+      {
+        "category": "SIM_UPFRONT_PAYMENT",
+        "phrase": "send payment first",
+        "score": 12,
+        "threshold": 0.74
+      },
+      {
+        "category": "SIM_ACCOUNT_DATA",
+        "phrase": "verification code",
+        "score": 14,
+        "threshold": 0.8
+      },
+      {
+        "category": "SIM_ACCOUNT_DATA",
+        "phrase": "login details",
+        "score": 14,
+        "threshold": 0.8
+      },
+      {
+        "category": "SIM_ACCOUNT_DATA",
+        "phrase": "microsoft account",
+        "score": 14,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_ACCOUNT_DATA",
+        "phrase": "auth code",
+        "score": 14,
+        "threshold": 0.8
+      },
+      {
+        "category": "SIM_ACCOUNT_DATA",
+        "phrase": "email login",
+        "score": 14,
+        "threshold": 0.8
+      },
+      {
+        "category": "SIM_TRUST_MANIPULATION",
+        "phrase": "trust me",
+        "score": 8,
+        "threshold": 0.82
+      },
+      {
+        "category": "SIM_TRUST_MANIPULATION",
+        "phrase": "trusted middleman",
+        "score": 10,
+        "threshold": 0.76
+      },
+      {
+        "category": "SIM_TRUST_MANIPULATION",
+        "phrase": "legit middleman",
+        "score": 10,
+        "threshold": 0.76
+      },
+      {
+        "category": "SIM_TRUST_MANIPULATION",
+        "phrase": "trusted seller",
+        "score": 8,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_TOO_GOOD",
+        "phrase": "free rank",
+        "score": 8,
+        "threshold": 0.82
+      },
+      {
+        "category": "SIM_TOO_GOOD",
+        "phrase": "free coins",
+        "score": 8,
+        "threshold": 0.82
+      },
+      {
+        "category": "SIM_TOO_GOOD",
+        "phrase": "free skyblock coins",
+        "score": 10,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_TOO_GOOD",
+        "phrase": "100 safe",
+        "score": 8,
+        "threshold": 0.74
+      },
+      {
+        "category": "SIM_URGENCY",
+        "phrase": "right now",
+        "score": 6,
+        "threshold": 0.82
+      },
+      {
+        "category": "SIM_URGENCY",
+        "phrase": "right away",
+        "score": 6,
+        "threshold": 0.78
+      },
+      {
+        "category": "SIM_URGENCY",
+        "phrase": "as soon as possible",
+        "score": 6,
+        "threshold": 0.74
+      },
+      {
+        "category": "SIM_URGENCY",
+        "phrase": "need it asap",
+        "score": 6,
+        "threshold": 0.76
+      }
+    ]
+  },
+  "behaviorStage": {
+    "minRepeatMessageLength": 8,
+    "minBurstMessageLength": 4,
+    "repeatedMessageThreshold": 1,
+    "repeatedMessageScore": 1,
+    "burstContactThreshold": 3,
+    "burstContactScore": 1,
+    "comboBonusMinimum": 0,
+    "comboBonusDivisor": 2,
+    "windowMs": 90000,
+    "maxHistory": 8
+  },
+  "trendStage": {
+    "minTrendMessageLength": 6,
+    "singleSenderRepeatScore": 10,
+    "multiSenderWaveScore": 20,
+    "multiSenderWaveThreshold": 2,
+    "escalationBonusMinimum": 1,
+    "escalationBonusDivisor": 2,
+    "windowMs": 120000,
+    "maxHistory": 200
+  },
+  "funnelStage": {
+    "externalAfterContactScore": 8,
+    "paymentAfterExternalScore": 18,
+    "paymentAfterTrustScore": 10,
+    "accountAfterExternalScore": 22,
+    "accountAfterTrustScore": 14,
+    "fullChainBonusScore": 10,
+    "trustBridgeBonusMinimum": 1,
+    "trustBridgeBonusDivisor": 2,
+    "windowMs": 300000,
+    "maxHistory": 8
+  },
+  "contextStage": {
+    "signalBlendScore": 2,
+    "escalationBonusScore": 1,
+    "maxContextMessages": 6,
+    "minSenderMessages": 2,
+    "minSignalMessages": 2,
+    "minSignalKinds": 2,
+    "escalationMinSignalKinds": 3,
+    "escalationMinSignalMessages": 3
+  }
+}

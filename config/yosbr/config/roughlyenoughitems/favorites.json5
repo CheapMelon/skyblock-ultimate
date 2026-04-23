@@ -1,0 +1,33 @@
+{
+	"favorites": [
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"LAVA_RUNE;1\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"MITHRIL_GOURMAND\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"FISHING_ROD\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"POTION_ENCHANTING_XP_BOOST;1\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENCHANTED_COBBLESTONE\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"GOLD_INGOT\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENDER_NECKLACE\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ROTTEN_FLESH\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"STARFALL\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"GOBLIN_EGG\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"MITE_GEL\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENCHANTED_REDSTONE_BLOCK\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENCHANTED_REDSTONE\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"LUXURIOUS_SPOOL\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"BATTLE_DISC\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENDER_PEARL\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENCHANTED_SULPHUR\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"POTION_HEALING;8\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"IRON_BLOCK\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"null\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"IRON_INGOT\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"SULPHUR_ORE\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"SLIME_BALL\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"POTION_ALCHEMY_XP_BOOST;1\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ASPECT_OF_THE_END\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"MITHRIL_ORE\"}},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{type:\"firmament:skyblockitems\",value:{count:1,skyblockId:\"ENCHANTED_SNOW_BLOCK\"}},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}
